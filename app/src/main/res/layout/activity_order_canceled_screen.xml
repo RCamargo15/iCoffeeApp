@@ -20,13 +20,19 @@
         android:id="@+id/textView12"
         android:layout_width="310dp"
         android:layout_height="90dp"
+        android:layout_marginStart="295dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="295dp"
+        android:layout_marginBottom="36dp"
         android:text="iCoffee"
         android:textAlignment="center"
         android:textColor="#050101"
         android:textSize="48sp"
         android:textStyle="bold|italic"
-        tools:layout_editor_absoluteX="295dp"
-        tools:layout_editor_absoluteY="41dp" />
+        app:layout_constraintBottom_toBottomOf="@+id/toolbar6"
+        app:layout_constraintEnd_toEndOf="@+id/toolbar6"
+        app:layout_constraintStart_toStartOf="@+id/toolbar6"
+        app:layout_constraintTop_toTopOf="@+id/toolbar6" />
 
     <TextView
         android:id="@+id/canceledOrderMessage"
